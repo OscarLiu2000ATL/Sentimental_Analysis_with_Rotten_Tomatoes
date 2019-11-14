@@ -1,6 +1,6 @@
 # Sentimental_Analysis_with_Rotten_Tomatoes
 
-<img src="./Train_Test_Data/屏幕快照 2019-03-02 上午2.23.29.png" height="400" />
+<img src="./Train_Test_Data/屏幕快照 2019-03-02 上午2.23.29.png" height="280" />
 
 ## Overview
 
@@ -9,15 +9,7 @@
 
 <img src="./User Guide.pdf" height="400" />
 
-## What is Double Dueling Deep Q-Network?
-It is a variant of the Deep Q-learning network. The Double DQN uses two systems, Q and Q'(target network), to determine action and value, respectively. In doing so, it prevents overestimation. 
-
-The Dueling DQN uses two streams after the convolution layers, namely V(s) and A(s, a). Q(s, a) is the aggregation of V(s) and the normalized A(s, a). This change in network structure makes updates of Q values of the state, action pair more efficient (we can only sample so much data). 
-
-## Network Architecture
-<img src="./images/drawing.png" width = "1000"  />
-
-#### please imagine the depth :D
+## What is ?
 
 ## Implementetion Tips
 
